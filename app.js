@@ -1,6 +1,12 @@
-var express = require('express');
-var app = express();app.get('/', function (req, res) {
-  res.send('Hello World!');
-});app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
-});
+const express = require('express')
+require('./db/mongoose')
+
+const port = process.env.PORT
+
+const app = express()
+app.use(express.json())
+
+
+app.listen(port, () => {
+    console.log('server listening on port ' + port)
+})
