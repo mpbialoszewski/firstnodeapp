@@ -1,0 +1,14 @@
+{
+  "name": "firstnodeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "\\"
+  },
+  "author": "mpb",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
